@@ -3,7 +3,7 @@
     "displayName": "Logstash Configuration Syntax / Language Support",
     "description": "Adds syntax highlighting for logstash configuration files.",
     "version": "0.0.1",
-    "publisher": "Chance Carroll",
+    "publisher": "RandomChance",
     "license": "SEE LICENSE IN LICENSE.md",
     "icon": "images/icon-logstash.svg",
     "bugs": {
