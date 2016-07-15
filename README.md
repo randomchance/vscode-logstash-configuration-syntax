@@ -12,7 +12,7 @@ The initial language grammar was ever so lovingly taken from the SublimeText ext
 
 Some of the words are different colors, it's amazing. 
 
-![Example](images\Example.png)
+![Example](images/Example.png)
 
 Automatically detects files that match:
 
