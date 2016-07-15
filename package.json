@@ -1,0 +1,36 @@
+{
+    "name": "logstash",
+    "displayName": "Logstash Configuration Syntax / Language Support",
+    "description": "Adds syntax highlighting for logstash configuration files.",
+    "version": "0.0.1",
+    "publisher": "Chance Carroll",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "icon": "images/icon-logstash.svg",
+    "bugs": {
+        "url": "https://github.com/randomchance/vscode-logstash-configuration-syntax/issues"
+    },
+    "homepage": "https://github.com/randomchance/vscode-logstash-configuration-syntax",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/randomchance/vscode-logstash-configuration-syntax.git"
+    },
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "logstash",
+            "aliases": ["Logstash", "logstash"],
+            "extensions": [".logstash.conf",".logstash.conf.j2",".logstash.conf.template"],
+            "configuration": "./logstash.configuration.json"
+        }],
+        "grammars": [{
+            "language": "logstash",
+            "scopeName": "text.logstash",
+            "path": "./syntaxes/logstash.tmLanguage"
+        }]
+    }
+}
