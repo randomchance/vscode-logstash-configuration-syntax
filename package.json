@@ -2,7 +2,7 @@
     "name": "logstash",
     "displayName": "Logstash Configuration Syntax / Language Support",
     "description": "Adds syntax highlighting for logstash configuration files.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "RandomChance",
     "license": "SEE LICENSE IN LICENSE.md",
     "icon": "images/icon-logstash.svg",
