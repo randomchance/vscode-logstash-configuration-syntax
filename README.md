@@ -26,4 +26,5 @@ Automatically detects files that match:
 
 ## Release Notes
 
+* `0.0.4` Fixed strings with quotes.
 * `0.0.3` Fixed [Language comment functionality uses incorrect syntax](https://github.com/randomchance/vscode-logstash-configuration-syntax/issues/1), comment shortcuts should work now. 
