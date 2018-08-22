@@ -67,9 +67,43 @@
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>String values</string>
-			<key>match</key>
-			<string>(")(.+?)[^"]*(")</string>
+			<string>Double quoted string values</string>
+			<key>begin</key>
+			<string>"</string>
+			<key>end</key>
+			<string>"</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\\"</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>[^"]</string>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>string.text.logstash</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Single quoted string values</string>
+			<key>begin</key>
+			<string>'</string>
+			<key>end</key>
+			<string>'</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\\'</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>[^']</string>
+				</dict>
+			</array>
 			<key>name</key>
 			<string>string.text.logstash</string>
 		</dict>
