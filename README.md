@@ -16,9 +16,9 @@ Some of the words are different colors, it's amazing.
 
 Automatically detects files that match:
 
-* *.logstash.conf
-* *.logstash.conf.j2
-* *.logstash.conf.template 
+* `*logstash.conf`
+* `*logstash.conf.j2`
+* `*logstash.conf.template`
 
 ## Known Issues
 
