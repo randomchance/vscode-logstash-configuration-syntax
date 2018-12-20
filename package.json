@@ -24,7 +24,11 @@
         "languages": [{
             "id": "logstash",
             "aliases": ["Logstash", "logstash"],
-            "extensions": [".logstash.conf",".logstash.conf.j2",".logstash.conf.template"],
+            "filenamePatterns": [
+                "*logstash.conf",
+                "*logstash.conf.j2",
+                "*logstash.conf.template"
+            ],
             "configuration": "./logstash.configuration.json"
         }],
         "grammars": [{
