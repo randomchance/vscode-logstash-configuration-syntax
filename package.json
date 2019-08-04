@@ -5,7 +5,7 @@
     "version": "0.0.4",
     "publisher": "RandomChance",
     "license": "SEE LICENSE IN LICENSE.md",
-    "icon": "images/icon-logstash.svg",
+    "icon": "images/icon-logstash.png",
     "bugs": {
         "url": "https://github.com/randomchance/vscode-logstash-configuration-syntax/issues"
     },
@@ -18,7 +18,7 @@
         "vscode": "^1.0.0"
     },
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
     "contributes": {
         "languages": [{
